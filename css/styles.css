@@ -196,21 +196,6 @@ header .icons span {
     }
 }
 
-
-footer {
-    display: flex;
-    justify-content: center; 
-    align-items: flex-end; 
-    margin: 10px 0;
-}
-
-.footer_copyright {
-    font-size: 1rem; /* Tamaño de fuente pequeño */
-    text-align: center; /* Centrar el texto horizontalmente en el footer */
-    color: #666; /* Color de texto gris, puedes personalizar el color */
-    margin: 2rem 0; /* Márgenes superior e inferior */
-}
-
 /*Configuración del formulario de contacto*/ 
 
 .grid-container{
@@ -235,3 +220,18 @@ footer {
   .grid-item label, input, textarea{
     width: 100%;
   }
+
+  
+footer {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end; 
+    margin: 10px 0;
+}
+
+.footer_copyright {
+    font-size: 1rem; /* Tamaño de fuente pequeño */
+    text-align: center; /* Centrar el texto horizontalmente en el footer */
+    color: #666; /* Color de texto gris, puedes personalizar el color */
+    margin: 2rem 0; /* Márgenes superior e inferior */
+}
